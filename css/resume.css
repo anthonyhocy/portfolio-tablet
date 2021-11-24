@@ -1,0 +1,45 @@
+.container, .resume_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF2FA;
+    padding: 25px;
+}
+
+.site_header {
+    padding: 15px 15px 15px 25px;
+}
+
+.site_header h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #274C77;
+    text-align: left;
+    font-size: 35px;
+}
+
+.resume_block h2 {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 25px;
+    color: #151515;
+    padding: 5px;
+    text-align: center;
+}
+
+.resume_block img {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 10px;
+}
+
+.resume_block ul {
+    list-style-type: circle;
+}
+
+.resume_block ul li{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #151515;
+}
+
+
